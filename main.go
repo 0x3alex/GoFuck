@@ -2,7 +2,7 @@ package main
 
 func main() {
 	var programm string
-	fuckFromFile("./hello_world") // print Hello World
+	fuckFromFile("./hello_world.bf") // print Hello World
 	reset()
 	programm = ">+++[[>,.<-]<]"
 	fuck(programm)
